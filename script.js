@@ -1,6 +1,6 @@
 function makeGrids(size) {
     let screen = document.querySelector(".sketch-screen");
-    screen.innerHTML = ""; // Clear or clean previous grid
+    screen.innerHTML = ""; // Clear previous grid
     
     // Create grid squares
     for (let i = 0; i < size; i++) {
